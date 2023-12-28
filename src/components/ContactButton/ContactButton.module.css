@@ -1,0 +1,7 @@
+.button {
+  width: 10.75rem;
+  height: 2.9rem;
+  border: 2px solid var(--color-white);
+  background-color: transparent;
+  font-weight: 600;
+}
