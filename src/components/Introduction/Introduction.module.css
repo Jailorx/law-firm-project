@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70.75rem;
+  height: 100vh;
+  margin: auto;
+}
+#heading {
+  font-size: 3.375rem;
+  font-weight: 600;
+}
+
+#verticalLine {
+  width: 0.1rem;
+  height: 15rem;
+  background-color: var(--color-white);
+  margin-right: 7rem;
+}
+.speciality {
+  width: 29.688rem;
+}
+#title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+#desc {
+  color: var(--color-text);
+}

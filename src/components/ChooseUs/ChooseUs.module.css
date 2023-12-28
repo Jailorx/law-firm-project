@@ -1,0 +1,41 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 3.375rem;
+  font-weight: 600;
+  margin: auto;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  width: 77.2rem;
+  margin: auto;
+  gap: 1rem;
+}
+.bg {
+  background-color: var(--color-text);
+}
+
+.card {
+  width: 22.5rem;
+  height: 23.5rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--color-text);
+  border-radius: 0.875rem;
+  padding: 1rem;
+}
+.title {
+  margin: 1rem 0;
+}
+
+.desc {
+  margin-bottom: 1rem;
+}
